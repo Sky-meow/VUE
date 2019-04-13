@@ -1,0 +1,12 @@
+    ab_axios(){
+      that.$axios({
+        method:'GET',   //请求的方式
+        url:'',    //请求的地址
+        params:{    //请求所需要带过去的参数
+          a:656,
+          b:54
+        }
+      }).then(res=>{    //res即是reponse,其带有所有返回的参数(包括data,code)
+        console.log
+      })
+    }
